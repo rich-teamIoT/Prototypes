@@ -1,0 +1,36 @@
+<html>
+<body>
+
+<title>Exchange rates</title>
+
+Enter your : <input type="text" id="field"><br></p>
+
+<button onclick="myFunction()">Show it</button>
+
+<script src="path/to/money.js"></script>
+
+<script>
+function myFunction() {
+    alert(document.getElementById("field").value);
+}
+
+</script>
+</body>
+</html>
+
+//неробочі елементи
+
+   $( "#submit" ).click(function() {
+   var demo = function(data) {
+   fx.rates = data.rates
+   var rate = fx(1).from("GBP").to("USD")
+   alert("£1 = $" + rate.toFixed(4))
+
+$.getJSON("http://api.fixer.io/latest", demo){
+
+//app ID from https://openexchangerates.org/account/apps/?yep=app_id_deactivated is f4368db8f27e4ae4bc6757805d94b729
+
+var message = demo + (result.main.temp);
+});
+};
+
