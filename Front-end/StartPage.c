@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta charset="UTF-8"> 
+<body style="background-color:lavender;">
+<title>Журнал НУ ЛП</title>
+</head>
+<body>
+
+<h1 style="color:maroon; text-align:center; font-family:Cursive;">Вітаємо в електронному журналі Національного університету "Львівська політехніка"!</h1>
+<h2 style="color:slategray; text-align:center; font-family:cursive;">Тут ви можете переглянути свою успішність, відвідування</h2>
+<h2 style="color:slategray; text-align:center; font-family:cursive;">та вирахувати середній бал з урахуванням коефіцієнтів</h2>
+
+<p style="color:indianred; text-align:center; font-family:cursive;">Логін <input style="color:indianred; type="text" id="username" size="35"></br></p>
+<p style="color:indianred; text-align:center; font-family:cursive;">Пароль <input style="color:indianred; type="text" id="password" size="35"></br></p>
+
+<p style="color:black; text-align:center; font-family:cursive;">Вперше в системі? 
+<button style="color:maroon; font-family:cursive; onclick="myFunction()"><strong>Реєстрація</button></strong></p> 
+
+</body>
+</html>
+
+
+
+//system colors: indianred, maroon, lavender, lightslategray, black
+
